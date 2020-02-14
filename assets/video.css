@@ -1,0 +1,20 @@
+.video__active .video__section{
+    display: inherit;
+}
+.video__active .i_sepu_full_image_div{
+    display: none;
+}
+.video__section{
+    display: none;
+}
+.video__active i.iconic-woothumbs-icon.iconic-woothumbs-icon-play{
+    display: none;
+}
+.sepu_product_intro_images_div i.iconic-woothumbs-icon.iconic-woothumbs-icon-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+}
